@@ -1,0 +1,68 @@
+.heading
+{
+  position: relative;
+  font-size: 100px;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+}
+#loginBox
+{
+  height:360px;
+  width:260px;
+  border-style: dashed;
+  margin-top: 100px;
+  margin-left: 950px;
+}
+#outerbox
+{
+  width: 800px;
+  overflow: hidden;
+}
+#slidebox
+{
+  position: relative;
+  width: 5200px;
+  animation-name: slider;
+  animation-duration: 40s;
+}
+#slidebox img
+{
+  float: left;
+}
+@keyframes slider {
+    0%{
+      left: 0px;
+    }
+    15%{
+      left: 0px;
+    }
+    20%{
+      left: -800px;
+    }
+    35%{
+      left: -800px;
+    }
+    40%{
+      left: -1700px;
+    }
+    55%{
+      left: -1700px;
+    }
+    60%{
+      left: -2550px;
+    }
+    75%{
+      left: -2550px;
+    }
+    80%{
+      left: -3400px;
+    }
+    95%{
+      left: -3400px;
+    }
+    100%{
+      left: -4200px;
+    }
+
+}
